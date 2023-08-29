@@ -11,10 +11,12 @@ Baccus Lab, Stanford University
 
 ### Input
 The input is naturalistic video data projected to the retina
+
 Size of the input tensor is: (Time, window (40 frames), x, y)
 
 ### Output
 The output is neural physiological responses (calcium responses)
+
 Size of the output tensor is: (Time, # of cells or ROIs)
 
 ### Model
