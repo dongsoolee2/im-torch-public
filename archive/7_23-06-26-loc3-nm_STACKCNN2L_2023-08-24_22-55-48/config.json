@@ -1,0 +1,26 @@
+{
+  "_note": "this config.json file is for model fitting using PyTorch",
+  
+  "h5file": "7_23-06-26-loc3-nm.h5",
+  
+  "train_stim_key": "train/stim",
+  "train_resp_key": "train/resp",
+  "tbins_train_key": "train/tbins",
+  "test_stim_key": "test/stim",
+  "test_resp_key": "test/resp",
+  "test_tbins_key": "test/tbins",
+  "test_cc_key": "test/cc",
+
+  "num_gpu": 0,  
+  
+  "num_frame_window": 40,
+  "learning_rate": 0.001,
+  "batch_size": 2000,
+  "num_epochs": 200,
+  "num_cells": "all",
+  "select_mode": "all",
+  "select_manual": "N/A",
+
+  "model": "STACKCNN2L",
+  "loss_fn": "MSELoss"
+}
